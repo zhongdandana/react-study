@@ -14,6 +14,14 @@ class Form extends Component{
     })
   }
   submitForm = () =>{
+    if(this.state.name===''){
+      alert('Name is require')
+      return
+    }
+    if(this.state.job===''){
+      alert('job is require')
+      return
+    }
     this.props.handleSubmit(this.state)
     this.setState(this.initState)
   }
