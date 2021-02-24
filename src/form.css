@@ -1,0 +1,26 @@
+form{
+  margin: auto;
+  width: 60%;
+}
+label{
+  display: block;
+  text-align: left;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+input{
+  text-align: left;
+  width: 100%;
+  margin-top: 20px;
+}
+input[type="button"]{
+  background-color: #0366ee;
+  color: #fff;
+  width: 200px;
+  text-align: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  margin-left: 0;
+}

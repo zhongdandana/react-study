@@ -1,0 +1,23 @@
+.table{
+  margin: auto;
+  width: 60%;
+  text-align: left;
+}
+.table td{
+  border-bottom: 1px solid #eee;
+  width: 30%;
+ 
+}
+.table tr{
+  margin-bottom: 10px;
+  
+}
+.table button{
+  background-color:#0366ee;
+  color:#fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 6px 20px;
+  margin:20px 0px;
+} 
